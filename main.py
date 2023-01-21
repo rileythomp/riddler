@@ -12,7 +12,7 @@ scooter_time = 1000000000000000
 drone_time = 1000000000000000
 
 while scooter_time > 0 or drone_time > 0:
-    # pick new piont in city
+    # pick new point in city
     x = randint(-r, r)
     y = floor(sqrt(r*r - x*x))
     if random() < 0.5: y *= -1
